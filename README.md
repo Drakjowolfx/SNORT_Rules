@@ -1,8 +1,13 @@
 SNORT_Rules
-i have added some rules that APP-DETECT  
+i have added some rules that APP-DETECT
+
 this me adding the rules 
+with this command ( sudo vim /etc/snort/rules/local.rules )  
 ![Screenshot 2024-02-02 213134](https://github.com/Drakjowolfx/SNORT_Rules/assets/141784766/26265c6b-c96d-4097-a2ad-cd3458479757)
+
+
 and this is after i started snort to sniff around
+with this command ( sudo snort -q -l /var/log/snort -i eth0 -A console -c /etc/snort/snort.conf ) 
 ![Screenshot 2024-02-02 213737](https://github.com/Drakjowolfx/SNORT_Rules/assets/141784766/569c2ca1-96ea-49d9-a940-c0058c21567a)
 
 and down their is all the rule i have added 
